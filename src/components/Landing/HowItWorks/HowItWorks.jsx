@@ -34,7 +34,7 @@ const HowItWorks = () => {
             src="/img/howitworkproperty.png"
             alt="howitworks"
             className="mx-auto sm:max-w-[60%] 2xl:max-w-[70%]"
-            data-aos="zoom-in" data-aos-delay="100" data-aos-duration="3000"
+            data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000"
           />
           <div className="lg:max-w-[420px] mx-auto text-center absolute left-0 max-lg:right-0 lg:left-1/2 lg:-translate-x-1/2 -bottom-[500px] sm:-bottom-[440px] lg:-bottom-[273px]">
             <h5 className="text-lg lg:text-2xl font-display font-normal uppercase pb-5 lg:pb-8 max-sm:leading-tight">
@@ -54,7 +54,7 @@ const HowItWorks = () => {
           </div>
         </div>
         <div>
-          <div className="absolute top-[270px] xs:top-[290px] sm:top-[284px] lg:top-0 -left-4 sm:left-[100px] lg:-left-2 2xl:left-16 text-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+          <div className="absolute top-[270px] xs:top-[290px] sm:top-[284px] lg:top-0 -left-4 sm:left-[100px] lg:-left-2 2xl:left-16 text-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             <div className="relative">
               <img
                 src="/img/user1.png"
@@ -78,7 +78,7 @@ const HowItWorks = () => {
             </p>
           </div>
 
-          <div className="absolute top-[270px] xs:top-[290px] sm:top-[284px] lg:top-0 -right-2 sm:right-20 lg:-right-4 2xl:right-16 text-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="3000">
+          <div className="absolute top-[270px] xs:top-[290px] sm:top-[284px] lg:top-0 -right-2 sm:right-20 lg:-right-4 2xl:right-16 text-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
             <div className="relative">
               <img
                 src="/img/user2.png"
@@ -102,7 +102,7 @@ const HowItWorks = () => {
             </p>
           </div>
 
-          <div className="absolute -bottom-[324px] xs:-bottom-[304px] sm:-bottom-[210px] max-sm:-right-4 sm:lg:-bottom-28 2xl:-bottom-32 left-[250px] max-sm:-left-[175px]  lg:left-[80px] 2xl:left-40 text-center max-sm:min-w-36" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+          <div className="absolute -bottom-[324px] xs:-bottom-[304px] sm:-bottom-[210px] max-sm:-right-4 sm:lg:-bottom-28 2xl:-bottom-32 left-[250px] max-sm:-left-[175px]  lg:left-[80px] 2xl:left-40 text-center max-sm:min-w-36" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             <div className="relative">
               <img
                 src="/img/user3.png"
@@ -130,7 +130,7 @@ const HowItWorks = () => {
             </p>
           </div>
 
-          <div className="absolute  -bottom-[324px] xs:-bottom-[304px] xs:right-[5px] sm:-bottom-[210px] lg:-bottom-24 2xl:-bottom-32  sm:right-[208px] lg:right-[82px] 2xl:right-40 text-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="3000">
+          <div className="absolute  -bottom-[324px] xs:-bottom-[304px] xs:right-[5px] sm:-bottom-[210px] lg:-bottom-24 2xl:-bottom-32  sm:right-[208px] lg:right-[82px] 2xl:right-40 text-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
             <div className="relative">
               <img
                 src="/img/user4.png"

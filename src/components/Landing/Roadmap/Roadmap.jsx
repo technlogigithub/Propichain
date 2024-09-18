@@ -107,7 +107,7 @@ const Roadmap = () => {
       <div className='roadmapBg absolute opacity-60'></div>
       <div className="px-5 sm:px-10 lg:px-20 py-24 lg:py-28 2xl:py-40">
         <h2 className="uppercase text-center max-lg:mb-12">Roadmap</h2>
-        <div className="grid lg:grid-cols-3 gap-2 sm:gap-8 " data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+        <div className="grid lg:grid-cols-3 gap-2 sm:gap-8 " data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
           {roadmapItem.map((file) => (
             <div className="px-6 sm:px-[48px] pt-[72px] pb-8 rounded-[48px] border border-gray shadow1 bg-white mx-auto flex-col justify-center relative mt-10 lg:mt-32 w-full">
               <div className="flex justify-between items-center px-8 py-4 sm:py-6   bg-dark-black text-white rounded-full -mt-24 sm:-mt-28">
@@ -157,7 +157,7 @@ const Roadmap = () => {
       <div className="px-5 sm:px-10 lg:px-20 py-12 sm:py-20" id="howtobuy">
         <h2 className="uppercase text-center">How to Buy</h2>
         <div className="grid lg:grid-cols-2  gap-8 ">
-          <div className="px-6 lg:px-12 py-8 lg:py-16  rounded-3xl lg:rounded-[48px] border border-gray shadow1 mx-auto flex-col justify-center relative mt-16 w-full bg-dark-black text-white" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+          <div className="px-6 lg:px-12 py-8 lg:py-16  rounded-3xl lg:rounded-[48px] border border-gray shadow1 mx-auto flex-col justify-center relative mt-16 w-full bg-dark-black text-white" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             <h3 className="max-sm:text-lg max-lg:font-2xl tracking-normal  leading-none font-normal pb-6">
               Method 1: Signup
             </h3>
@@ -175,7 +175,7 @@ const Roadmap = () => {
               <li>In a few minutes the transaction will be finished and you will get tokens updated in your dashboard.</li>
             </ul>
           </div>
-          <div className="px-6 lg:px-12 py-8 lg:py-16 rounded-3xl lg:rounded-[48px] border border-gray shadow1 mx-auto flex-col justify-center relative mt-0 lg:mt-16 w-full bg-white text-dark-black" data-aos="fade-left" data-aos-delay="100" data-aos-duration="3000">
+          <div className="px-6 lg:px-12 py-8 lg:py-16 rounded-3xl lg:rounded-[48px] border border-gray shadow1 mx-auto flex-col justify-center relative mt-0 lg:mt-16 w-full bg-white text-dark-black" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
             <h3 className="max-sm:text-lg max-lg:font-2xl tracking-normal  leading-none font-normal pb-6">
               Method 2: Wallet Connect
             </h3>

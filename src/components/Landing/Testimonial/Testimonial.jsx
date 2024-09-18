@@ -58,7 +58,7 @@ const Testimonial = () => {
           One simple example of how Derent smart contracts work
         </p>
       </div>
-      <div className="relative max-w-[810px] mx-auto mt-16 lg:mt-24 text-center overflow-hidden" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="3000">
+      <div className="relative max-w-[810px] mx-auto mt-16 lg:mt-24 text-center overflow-hidden" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000">
         {/* Slide container */}
         <div
           className="flex transition-transform duration-500 ease-in-out"

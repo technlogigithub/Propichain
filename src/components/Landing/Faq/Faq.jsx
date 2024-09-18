@@ -9,7 +9,7 @@ const AccordionItem = ({ title, content }) => {
   };
 
   return (
-    <div className="border-b border-gray" data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+    <div className="border-b border-gray" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
       <button
         className="w-full text-left py-5 px-4 sm:px-6 flex justify-between items-center focus:outline-none"
         onClick={toggleAccordion}
