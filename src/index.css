@@ -1,0 +1,359 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2b8872;
+  --light-gray: #e8e8e8;
+  --extra-light: #fefefe;
+  --dark-black: #27292d;
+  --light-black: #505258;
+  --brand-black: #33363f;
+  --gray: #e8e8e8;
+  --green: #2b8872;
+  --primary-hover: #4ea28e;
+  --light-green: #03df84;
+  --gray-dark:"#B3B3B3";
+  --gray-bg:"#FAFAFA"
+}
+
+@layer base {
+  @font-face {
+    font-family: "Monument Extended";
+    src: url("./fonts/MonumentExtended-Regular.eot");
+    src: url("./fonts/MonumentExtended-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/MonumentExtended-Regular.woff2") format("woff2"),
+      url("./fonts/MonumentExtended-Regular.woff") format("woff"),
+      url("./fonts/MonumentExtended-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Monument Extended";
+    src: url("./fonts/MonumentExtended-Ultrabold.eot");
+    src: url("./fonts/MonumentExtended-Ultrabold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/MonumentExtended-Ultrabold.woff2") format("woff2"),
+      url("./fonts/MonumentExtended-Ultrabold.woff") format("woff"),
+      url("./fonts/MonumentExtended-Ultrabold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+    color: #33363f;
+    overflow-x: hidden;
+  }
+  body.menu-open {
+    @apply overflow-hidden;
+  }
+  h3 {
+    @apply text-base sm:text-lg lg:text-2xl 2xl:text-3xl font-bold font-display tracking-[3.4px] 2xl:tracking-[5.44px] leading-tight sm:leading-9;
+  }
+  h2 {
+    @apply text-2xl sm:text-3xl lg:text-5xl 2xl:text-[64px] font-normal font-display;
+  }
+  p {
+    @apply text-xs sm:text-sm lg:text-base 2xl:text-2md font-medium text-light-black max-sm:leading-normal
+  }
+}
+.shadow1 {
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.textGradient {
+  background: var(
+    --Brand-Gradient,
+    linear-gradient(135deg, #02634c 15.86%, #02de83 62.42%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bottomLeftBg {
+  width: 2313.276px;
+  height: 749.405px;
+  transform: rotate(-13.72deg);
+  flex-shrink: 0;
+  background: url("../public/img/Ресурс_left_bottom.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* z-index: -1; */
+}
+.topRightBg {
+  width: 1133px;
+  height: 1749.405px;
+  /* transform: rotate(-46.413deg); */
+  flex-shrink: 0;
+  background: url("../public/img/Ресурс_right_top.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* z-index: -1; */
+}
+.bottomRightBg {
+  width: 1152px;
+  height: 1528px;
+  flex-shrink: 0;
+  background: url("../public/img/Ресурс_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* z-index: -1; */
+}
+.howwItBg {
+  width: 1974px;
+  height: 850px;
+  flex-shrink: 0;
+  background: url("../public/img/Ресурс 2_1_4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 272px;
+  right: 0;
+  left: 0;
+}
+.howwToBuyBg {
+  width: 100%;
+  height: 769px;
+  flex-shrink: 0;
+  background: url("../public/img/Group_5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bottomLeftBgOne {
+  width: 1974px;
+  height: 811px;
+  transform: rotate(-141.501deg);
+  background: url("../public/img/Ресурс_2_1_6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.tokenomicsBg {
+  width: 2200px;
+  height: 2200px;
+  background: url("../public/img/tokenomics_one.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.7;
+  transform: rotate(-9deg);
+  top: 5338px;
+  left: -301px;
+}
+.roadmapBg {
+  width: 2000px;
+  height: 881px;
+  flex-shrink: 0;
+  background: url("../public/img/roadmap.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -462px;
+  left: 0;
+  right: 0;
+}
+.width-max70 {
+  @apply max-w-[70%] ;
+}
+.testimonial-slide-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1536px) {
+  .howwItBg{
+    height: 653px;
+  }
+  .width-max70 {
+    @apply max-w-[50%];
+  }
+  .tokenomicsBg {
+    width: 1900px;
+    height: 1850px;
+    top: 4626px;
+    left: -289px;
+}
+  .topRightBg {
+    height: 1472px;
+    right:-272px;
+    top:0
+  }
+  .bottomRightBg{
+    height: 1267px;
+    left: 0;
+    top: 953px;
+  }
+  .roadmapBg {
+
+    height: 688px;
+    top: -407px;
+}
+}
+@media screen and (max-width: 1279px) {
+  .bottomLeftBg{
+    height:600px;
+    background-image: url("../public/img/Ресурс_tab_1.png");
+    width: 1000px;
+    transform: rotate(-2.72deg);
+  }
+  .bottomRightBg {
+    height: 1077px;
+    left: 0;
+    top: 686px;
+}
+.topRightBg {
+  height: 1259px;
+  right: -366px;
+  top: 20px;
+}
+.howwItBg{
+  height: 540px;
+  top:140px
+}
+.tokenomicsBg {
+  top: 3626px;
+}
+.roadmapBg {
+  height: 532px;
+  top: -322px;
+}
+}
+@media screen and (max-width: 1080px) {
+.bottomLeftBg{
+  height:749px
+}
+.topRightBg{
+  background-image: url("../public/img/Ресурс_tab_2.png");
+  width: 1137px;
+  height: 467px;
+  transform: rotate(-50.397deg);
+  opacity: 0.15;
+  top: 1037px;
+  right: -517px;
+}
+.bottomRightBg{
+  background-image: url("../public/img/Ресурс_tab_3.png");
+  width: 543px;
+  height: 1158px;
+  transform: rotate(-169.606deg);
+  top: 899px;
+  left: -178px;
+}
+.howwItBg {
+  height: 450px;
+}
+.tokenomicsBg {
+  top: 4405px;
+  width: 1900px;
+  height: 1380px;
+  transform: rotate(3deg);
+  left: -320px;
+}
+.roadmapBg {
+  height: 525px;
+  top: -149px;
+  width: 1200px;
+}
+}
+@media screen and (max-width: 1040px) {
+  .roadmapBg {
+    height: 489px;
+    top: -165px;
+    width: 1100px;
+}
+}
+@media screen and (max-width: 800px) {
+  .bottomLeftBg{
+    height: 611px;
+    background-image: url(/public/img/mobile_vector_one.png);
+    width: 765px;
+    transform: rotate(-3.72deg);
+    left: -40px;
+    top: 122px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .bottomRightBg {
+    display: none;
+  }
+  .topRightBg {
+    width: 1077px;
+    height: 417px;
+    transform: rotate(-39.397deg);
+    opacity: 0.15;
+    top: 1017px;
+    right: -249px;
+}
+.tokenomicsBg {
+  top: 3580px;
+  width: 1200px;
+  height: 1044px;
+  transform: rotate(0deg);
+  left: -224px;
+}
+.roadmapBg {
+  height: 489px;
+  top: -134px;
+  width: 800px;
+  background-position: center;
+  background-size: cover;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .bottomLeftBg{
+    width: 400px;
+  }
+ 
+  .bottomRightBg{
+    @apply hidden;
+  }
+  .howwItBg{
+    height: 300px;
+    top: 242px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bottomLeftBg{
+    width: 300px;
+  }
+  .topRightBg{
+    top: 1127px;
+  }
+  .howwItBg{
+    height: 300px;
+    top:290px;
+  }
+  .tokenomicsBg {
+    top: 3720px;
+    width: 1200px;
+    height: 795px;
+    left: -322px;
+}
+.roadmapBg {
+  height: 300px;
+  top: -56px;
+  width: 1089px;
+}
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.img-rotate {
+  animation: rotate 14s linear infinite;
+}
