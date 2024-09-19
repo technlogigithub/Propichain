@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../shared/Button";
+import ScrollButton from "../../shared/ScrollButton";
 import Timer from "../../shared/Timer";
 
 const Banner = () => {
@@ -21,13 +22,13 @@ const Banner = () => {
                   src="/img/property_img.png"
                   alt="banner_img"
                   className="w-[65%] 2xl:w-[85%]"
-                  data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000"
+                  
                 />{" "}
               </div>
             </div>
           </div>
         </div>
-        <div className="lg:basis-1/2 lg:pl-16 max-lg:text-center max-lg:flex max-lg:items-center max-lg:flex-col max-sm:px-5" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
+        <div className="lg:basis-1/2 lg:pl-16 max-lg:text-center max-lg:flex max-lg:items-center max-lg:flex-col max-sm:px-5" >
           <h3 className="textGradient uppercase pb-6 max-sm:text-lg max-lg:text-xl">Tokenization</h3>
           <h1 className="text-xl sm:text-3xl lg:text-[40px] 2xl:text-[74px] font-display uppercase leading-6 sm:leading-[36px] lg:leading-[46px] 2xl:leading-[88px] pb-4 max-sm:max-w-full 2xl:max-w-[934px] max-2xl:max-w-[500px]">
             Revolutionize Real Estate with DeRent
@@ -69,14 +70,30 @@ const Banner = () => {
           DeRent Platform
         </h4>
         <div>
-          <Button
+          
+          {/* <Button
             label="Scroll Down"
             variant="secondary"
             icon="/img/Expand_down_double.svg"
             alt="Expand_down_double"
             onClick={() => {}}
             className="text-sm !px-3 !py-2 font-dmsans text-gray !rounded-md hover:bg-primary-hover"
+          /> */}
+
+          <ScrollButton
+            label="Scroll Down"
+            variant="secondary"
+            children={
+              <div className="flex justify-left">
+                <div className="chevron chevron1 "></div>
+                <div className="chevron chevron2 "></div>
+                <div className="chevron chevron3 "></div>
+              </div>
+            }
+            onClick={() => {}}
+            className="text-sm !px-3 !py-2 font-dmsans text-gray !rounded-md hover:bg-primary-hover"
           />
+
         </div>
         <h4 className="text-base lg;text-xl 2xl:text-2xl font-display font-normal uppercase">
           $DRT Token

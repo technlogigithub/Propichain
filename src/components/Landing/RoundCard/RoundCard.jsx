@@ -31,21 +31,21 @@ const RoundCard = () => {
       </div>
       <div className="flex gap-4 flex-col justify-center">
         <div className="flex max-sm:flex-wrap sm:grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
-          <div className="flex py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 lg:gap-8 max-sm:basis-full" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+          <div className="flex py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 lg:gap-8 max-sm:basis-full" >
             <div className="w-8 lg:w-12 2xl:w-16">
               <img src="/img/p_name.svg" alt="name" />
             </div>
             <p className="flex-grow max-sm:text-xs">Current Token Price</p>
             <p className="max-sm:text-xs text-base font-display font-normal">$0.006</p>
           </div>
-          <div className="flex py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 lg:gap-8 max-sm:basis-full" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
+          <div className="flex py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 lg:gap-8 max-sm:basis-full" >
             <div className="w-8 lg:w-12 2xl:w-16">
               <img src="/img/t_name.svg" alt="name" />
             </div>
             <p className="flex-grow max-sm:text-xs">1st Round Token Price</p>
             <p className="max-sm:text-xs text-base font-display font-normal">$0.08</p>
           </div>
-          <div className="flex max-sm:basis-full py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 sm:gap-8 sm:col-span-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+          <div className="flex max-sm:basis-full py-3 lg:py-4 px-2 lg:px-8 items-center rounded-2xl border border-gray gap-2 sm:gap-8 sm:col-span-2" >
             <div className="w-8 lg:w-12 2xl:w-16">
               <img src="/img/t_name.svg" alt="name" />
             </div>
@@ -53,7 +53,7 @@ const RoundCard = () => {
             <p className="max-sm:text-xs text-base font-display font-normal">$2,234,456.05</p>
           </div>
         </div>
-        <div className="flex gap-2 sm:gap-12 justify-between sm:justify-center max-sm:flex-wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+        <div className="flex gap-2 sm:gap-12 justify-between sm:justify-center max-sm:flex-wrap" >
           <div className="flex items-center max-sm:justify-between max-sm:w-full">
             <FontAwesomeIcon icon={faStar} className="text-green" />
             <p className="flex-grow px-2 max-sm:text-xs">Next stage price:</p>
@@ -74,7 +74,7 @@ const RoundCard = () => {
           onClick={() => {}}
           position="end"
           className="uppercase font-display font-normal max-sm:w-full"
-          data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000"
+          
         />
         <Button
           label="Whitepaper"
@@ -84,7 +84,7 @@ const RoundCard = () => {
           onClick={() => {}}
           position="end"
           className="uppercase  font-display font-normal max-sm:w-full"
-          data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"
+          
         />
       </div>
     </div>

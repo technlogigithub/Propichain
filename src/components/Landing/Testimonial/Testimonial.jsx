@@ -49,7 +49,8 @@ const Testimonial = () => {
   const isNextDisabled = currentIndex === testimonials.length - 1;
 
   return (
-    <div className="z-30 pt-32 pb-32 mt-16 sm:mt-24 lg:mt-[410px] 2xl:mt-[575px] px-5 sm:px-10 lg:px-20 bg-white -mb-32">
+    // <div className="z-30 pt-32 pb-32 mt-16 sm:mt-24 lg:mt-[410px] 2xl:mt-[575px] px-5 sm:px-10 lg:px-20 bg-white -mb-32">
+    <div className="z-30  pb-32 mt-16  lg:mt-[400px]  px-5 sm:px-10 lg:px-20 bg-white -mb-32">
       <div className="text-center max-w-3xl mx-auto">
         <h4 className="pb-4 font-normal font-display text-2xl 2xl:text-3xl uppercase leading-9 max-sm:leading-tight">
           How Derent simplifies the real estate value chain
@@ -58,7 +59,7 @@ const Testimonial = () => {
           One simple example of how Derent smart contracts work
         </p>
       </div>
-      <div className="relative max-w-[810px] mx-auto mt-16 lg:mt-24 text-center overflow-hidden" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000">
+      <div className="relative max-w-[810px] mx-auto mt-16 lg:mt-24 text-center overflow-hidden" >
         {/* Slide container */}
         <div
           className="flex transition-transform duration-500 ease-in-out"

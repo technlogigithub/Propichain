@@ -79,7 +79,7 @@ const Footer = ({ isMainMenu = false }) => {
     >
       {isMainMenu && (
         <div className="flex justify-center lg:justify-between items-center pb-8 lg:pb-16 max-lg:flex-wrap">
-          <Link to={"/"} className="mr-8" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000">
+          <Link to={"/"} className="mr-8" >
             <img src="/img/Black_Logo.svg" alt="logo" />
           </Link>
           <ul className="flex gap-6 2xl:gap-12 max-2xl:flex-wrap max-lg:mt-8 max-lg:justify-center">

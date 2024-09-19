@@ -81,14 +81,15 @@ const featureItems = [
 ];
 const Tokenomics = () => {
   return (
-    <div className="px-5 sm:px-10 lg:px-20 pb-12 sm:pb-24 lg:pb-36 z-30 relative" id="tokenomics">
+    // <div className="px-5 sm:px-10 lg:px-20 pb-12 sm:pb-24 lg:pb-36 z-30 relative" id="tokenomics">
+    <div className="px-5 sm:px-10 lg:px-20 pb-12   z-30 relative" id="tokenomics">
       <div>
         <h2 className="text-center mb-12 uppercase">Tokenomics</h2>
         <div className="lg:flex items-center gap-20">
-          <div className="lg:basis-1/3 flex justify-center max-sm:mb-8 max-lg:mb-20" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+          <div className="lg:basis-1/3 flex justify-center max-sm:mb-8 max-lg:mb-20" >
             <img src="/img/tokenomics.png" alt="Tokenomics" className="max-sm:w-[300px] max-lg:w-[400px] max-sm:h-[300px] max-lg:h-[400px]"/>
           </div>
-          <div className="lg:basis-2/3 flex flex-wrap gap-2 lg:gap-4 max-lg:justify-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
+          <div className="lg:basis-2/3 flex flex-wrap gap-2 lg:gap-4 max-lg:justify-center" >
             {tokenomicsItems.map((item) => (
               <div
                 className="flex py-3 sm:py-6 lg:py-7 px-4 sm:px-6 lg:px-12 gap-1 items-start rounded-2xl lg:rounded-[48px] border border-gray shadow1 bg-white flex-col max-sm:items-center"
@@ -115,7 +116,7 @@ const Tokenomics = () => {
             <div
               className="max-sm:basis-[47%] flex py-3 sm:py-5 px-4 sm:px-6 gap-1 items-center rounded-2xl sm:rounded-[32px] border border-gray shadow1 bg-white flex-col max-w-56 lg:max-w-80 text-center"
               key={item.name}
-              data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000"
+              
             >
               {item.icon}
               <h5 className="text-sm sm:text-base lg:text-xl font-bold pt-1 sm:pt-4">{item.name}</h5>
